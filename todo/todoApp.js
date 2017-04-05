@@ -1,6 +1,8 @@
 var toDo = {
   toDoList: [],
+  localStorage: {},
   getList: function() {
+    localStorage: {};
     if (localStorage.getItem("toDoStorage") === null) {
       return "NULL";
     }

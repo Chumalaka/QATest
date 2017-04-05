@@ -1,0 +1,36 @@
+button {
+  color: white;
+  background: blue;
+}
+
+button:hover {
+  background: lightblue;
+}
+html{
+  font-family: Helvetica;
+  border: solid black;
+}
+h1{
+  text-align:center;
+}
+div{
+  display: flex;
+  flex-wrap: wrap;
+  
+  border: solid black 1px;
+  padding: 10px;
+  margin: 5px;
+}
+progress{
+  width: 100%;
+}
+.delete{
+  float: right;
+}
+#Input{
+  display: flex;
+  justify-content: center;
+}
+#taskNamer{
+  width: 95%;
+}
