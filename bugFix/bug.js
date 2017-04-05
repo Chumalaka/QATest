@@ -2,7 +2,7 @@
 //javascript
 var summation = function (num) {
   var y = 0;
-  for(var i = 0; i<num; i++){
+  for(var i = 0; i<=num; i++){
     y = y+i;
   }
   return y;
