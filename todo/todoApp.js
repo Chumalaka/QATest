@@ -85,9 +85,9 @@ var toDo = {
     newStatus.setAttribute('onchange', 'toDo.toggleDone(toDo.getDate(parentNode.id))')
     newElem.appendChild(newStatus);
     
-    //create task name text
+    //create task name text with date
     var newElemName = document.createElement('span');
-    newElemName.innerHTML = `  ${taskName}  `;
+    newElemName.innerHTML = `  ${taskName} on ${taskDate} `;
     newElem.appendChild(newElemName);
     
     //create delete button
