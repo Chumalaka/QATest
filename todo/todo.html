@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="todo list homework">
+  <meta charset="utf-8">
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by barakplasma (http://jsbin.com/zobogoj/14/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+
+<style id="jsbin-css">
+button {
+  color: white;
+  background: blue;
+}
+
+button:hover {
+  background: lightblue;
+}
+html{
+  font-family: Helvetica;
+  border: solid black;
+}
+h1{
+  text-align:center;
+}
+div{
+  display: flex;
+  flex-wrap: wrap;
+  
+  border: solid black 1px;
+  padding: 10px;
+  margin: 5px;
+}
+progress{
+  width: 100%;
+}
+.delete{
+  float: right;
+}
+#Input{
+  display: flex;
+  justify-content: center;
+}
+#taskNamer{
+  width: 95%;
+}
+</style>
+</head>
+<body>
+  <h1>Michael's ToDo List</h1>
+  <em></em>
+  <progress id="progress" value="0" max="1"></progress><br>
+<button onclick="toDo.clearList()">Clear ALL</button>
+<div id="Input">
+  <input id="taskNamer" type="text" value="Press Enter to add toDo Item" onfocus="clearInput()"></input>
+</div>
+  <div id="ToDoList">
+    
+</div>
+<script src="todoApp.js"></script>
+
+</body>
+</html>
