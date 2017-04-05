@@ -87,7 +87,7 @@ var toDo = {
     
     //create task name text
     var newElemName = document.createElement('span');
-    newElemName.innerHTML = taskName;
+    newElemName.innerHTML = `  ${taskName}  `;
     newElem.appendChild(newElemName);
     
     //create delete button

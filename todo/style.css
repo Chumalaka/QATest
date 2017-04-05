@@ -1,6 +1,6 @@
 button {
   color: white;
-  background: blue;
+  background: lightseagreen;
 }
 
 button:hover {
@@ -9,9 +9,13 @@ button:hover {
 html{
   font-family: Helvetica;
   border: solid black;
+  width: 50%;
 }
 h1{
   text-align:center;
+}
+h3{
+    text-align: center;
 }
 div{
   display: flex;
@@ -25,11 +29,16 @@ progress{
   width: 100%;
 }
 .delete{
-  float: right;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50
+  /*float: right;*/
+    margin: 5px;
 }
 #Input{
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 #taskNamer{
   width: 95%;
